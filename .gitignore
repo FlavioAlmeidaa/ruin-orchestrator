@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Database (contains local state and API keys)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db

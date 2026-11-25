@@ -1,0 +1,18 @@
+{
+  "name": "ruin-orchestrator-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.125",
+    "@ai-sdk/openai": "^4.0.122",
+    "ai": "^7.0.181"
+  }
+}
